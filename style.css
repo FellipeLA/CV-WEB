@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    box-sizing: border-box
+}
+
+body {
+    background: linear-gradient(to bottom, #2d3636, rgb(23, 23, 136), #2d3636);
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+}
+
+#myicons {
+    display: flex;
+    justify-content: space-around;
+    width: 98.7vw;
+    background-color: #08040c;
+    font-size: 5vh;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+
+#myicons i {
+    padding: 1vw;
+}
+
+#corpo {
+    display: flex;
+    background-color: #141b1b;
+    height: 60vh;
+    margin: 0 15vw;
+    border: 2px solid white;
+    padding: 1rem;
+    border-top: none;
+}
+
+#corpo div img {
+    position: absolute;
+    max-width: 20%;
+    height: auto;
+    margin-top: 15vh;
+    margin-left: 45vw;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#intro {
+    font-size: 3vw;
+}
+
+#corpo div ul {
+    position: absolute;
+    font-size: 6vw;
+    color: white;
+    top: 38vh;
+    left: 34vw;
+}
+
+h1 {
+    display: block;
+    margin-top: 15vh;
+    margin-left: 3vw;
+    font-size: 2vw;
+    color: white;
+}
+
+h1 span {
+    display: block;
+    font-size: 8vw;
+    margin-top: -1vh;
+    display: flex;
+    color: white;
+}
+
+#sobremim {
+    display: block;
+    background-color: #141b1b;
+    height: auto;
+    margin: 0 15vw;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 5vw;
+    align-content: center;
+    line-height: 1.1;
+    margin-top: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#sobremim h2 {
+    margin-top: 1rem;
+    font-size: 3vw;
+}
+
+#sobremim p {
+    text-align: center;
+    font-size: 2vw;
+    margin: 0 10vw;
+    margin-bottom: 1rem;
+}
+
+#Educação {
+    font-size: 3vw;
+    display: flex;
+    background-color: #141b1b;
+    height: auto;
+    margin: 0 15vw;
+    justify-content: center;
+    line-height: 1;
+    padding: 1rem;
+    border: 2px solid white;
+    border-bottom: none;
+}
+
+#Educação h2 {
+    display: block;
+    margin-top: 1rem;
+}
+
+#instituições {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #141b1b;
+    height: auto;
+    margin: 0 15vw;
+    bottom: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid white;
+    border-top: none;
+    padding: 2rem;
+    place-items: center;
+}
+
+#instituições img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+    gap: 1vh 1vw;
+}
+
+#instituições img:hover {
+    border: 4px solid orange;
+}
+
+i:hover {
+    color: orange;
+    margin: 10px auto;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+#instituições p:hover {
+    color: orange;
+}
+
+#skill {
+    display: block;
+    background-color: #141b1b;
+    border: 2px solid white;
+    margin: 0 15vw;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#teste {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    justify-content: space-around;
+    gap: 10px;
+    text-align: center;
+    padding: 1rem;
+}
+
+#skill i {
+    font-size: 10vw;
+}
+
+#skill h2 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+#skill div p {
+    font-size: 1vw;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#experiencia {
+    font-size: 3vw;
+    background-color: #141b1b;
+    height: auto;
+    margin: 0 15vw;
+    border: 2px solid white;
+    margin-top: 1rem;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+#experiencia h2 {
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#experiencia div {
+    display: flex;
+    font-size: 1.8vw;
+    margin-right: 2vw;
+}
+
+#compliance img {
+    max-width: 100%;
+}
+
+
+#eduhas img {
+    max-width: 30vw;
+    margin-top: 1rem;
+    padding: 2vw;
+}
+
+#experiencia div img:hover {
+    border: orange solid 2px;
+}
+
+@media (max-width: 800px) {
+    #corpo {
+        height: 30vh;
+    }
+
+    #corpo div ul {
+        position: absolute;
+        font-size: 6vw;
+        top: 23vh;
+        left: 34vw;
+    }
+
+    #corpo div img {
+        position: absolute;
+        max-width: 15%;
+        height: auto;
+        margin-top: 15vh;
+        margin-left: 45vw;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+}
+
+footer {
+    display: block;
+    text-align: center;
+    background-color: black;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+#corpo div img:hover{
+    scale: 1.05;
+    transition: 1s;
+}
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #141b1b;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
